@@ -621,9 +621,6 @@ importers:
       '@hookform/resolvers':
         specifier: ^5.2.2
         version: 5.2.2(react-hook-form@7.68.0(react@19.2.3))
-      '@oramacloud/client':
-        specifier: ^2.1.4
-        version: 2.1.4
       '@radix-ui/react-accordion':
         specifier: ^1.2.12
         version: 1.2.12(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
@@ -18877,7 +18874,8 @@ snapshots:
 
   '@noble/ciphers@2.0.0': {}
 
-  '@noble/hashes@1.8.0': {}
+  '@noble/hashes@1.8.0':
+    optional: true
 
   '@noble/hashes@2.0.0': {}
 
@@ -19002,6 +19000,7 @@ snapshots:
   '@orama/cuid2@2.2.3':
     dependencies:
       '@noble/hashes': 1.8.0
+    optional: true
 
   '@orama/orama@3.1.18': {}
 
@@ -19010,6 +19009,7 @@ snapshots:
       '@orama/cuid2': 2.2.3
       '@orama/orama': 3.1.18
       lodash: 4.17.21
+    optional: true
 
   '@oxc-project/types@0.101.0': {}
 
@@ -22402,7 +22402,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.26':
     dependencies:
-      '@babel/parser': 7.28.5
+      '@babel/parser': 7.28.6
       '@vue/shared': 3.5.26
       entities: 7.0.0
       estree-walker: 2.0.2
